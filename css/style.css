@@ -1,0 +1,117 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:17px;
+    margin-top: 25px;
+    width: 550px;
+    height: 25px;
+    border-radius: 50px;
+    border: 1px solid rgb(220,220,220);
+    padding: 10px;
+}
+
+.search:hover, .search:focus{
+    border:1px solid rgb(255,255,255);
+    box-shadow: 0px 1px 8px 0px rgb(200,200,200);
+}
+
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100,100,100);
+    font-size:15px;
+    background-color: rgb(244,244,244);
+    margin: 30px 5px;
+    height: 40px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover{
+    
+    background-color: #f8f8f8;
+    cursor: pointer;
+    box-shadow: 0px 1px 5px lightgray;
+}
+
+footer{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    background-color: rgb(244,244,244);
+    padding: 12px 20px;;
+    border-top: solid 1px;
+    border-top-color: rgb(220,220,220);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(100,100,100);
+    margin: 0 10px;
+}
+
+.ahover:hover{
+    text-decoration: underline;
+}
+
+header{
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding: 17px 17px;
+}
+
+header a{
+    color: black;
+}
+
+#menuimage{
+    height: 17px;
+    width: 17px;
+}
+
+.menulink{
+    opacity: .6;
+
+}
+
+.menulink:hover{
+    opacity: .9;
+}
+
+.signin {
+    color: white;
+    background-color: #4285f4;
+    border: 1px solid #4387fd;
+    border-radius: 2px;
+    padding: 7px 11px;
+    font-weight: bold;
+}
+.signin:hover {
+    box-shadow: 0px 1px 1px lightgray;
+}
