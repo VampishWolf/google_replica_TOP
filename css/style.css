@@ -28,7 +28,8 @@ form{
     height: 25px;
     border-radius: 50px;
     border: 1px solid rgb(220,220,220);
-    padding: 10px;
+    padding: 10px 20px;
+    outline: none;
 }
 
 .search:hover, .search:focus{
@@ -97,7 +98,6 @@ header a{
 
 .menulink{
     opacity: .6;
-
 }
 
 .menulink:hover{
